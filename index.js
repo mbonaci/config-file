@@ -9,7 +9,7 @@
 const path   = require('path');
 const file   = require('fs-utils');
 const findup = require('findup-sync');
-const extend = require('extend');
+const extend = require('extend-object');
 
 
 // Defaults
