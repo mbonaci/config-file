@@ -1,7 +1,8 @@
 /**
- * config-file <https://github.com/jonschlinkert/config-file>
+ * adapted config-file <https://github.com/jonschlinkert/config-file> by mbo
+ * so it's not dependent on the whole lodash just because of extend function
  *
- * Copyright (c) 2014 Jon Schlinkert, contributors.
+ * Copyright (c) 2014 Jon Schlinkert, Marko Bonaći, contributors.
  * Licensed under the MIT license.
  */
 
