@@ -9,7 +9,7 @@
 const path   = require('path');
 const file   = require('fs-utils');
 const findup = require('findup-sync');
-const _      = require('lodash');
+const extend = require('extend');
 
 
 // Defaults
@@ -90,7 +90,7 @@ config.load = function(filename, options) {
  */
 
 config.npmLoad = function(name, configFile, options) {
-  var opts = _.extend({parse: 'json'}, options);
+  var opts = extend(options, {parse: 'json'});
   configFile = configFile || 'package.json';
   var config = file.findFile(npm(name), configFile);
 
